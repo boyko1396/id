@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+html(lang='en')
+  include includes/head.pug
+
+  body
+
+    #root.site
+      include includes/header.pug
+
+      main(role="main").main.site__main
+        .cases-page
+          section.cases-section
+            .cases-section__inner
+              header.cases-section__header
+                nav(role="navigation").nav-tabs.cases-section__header-nav
+                  ul.nav-tabs__list
+                    li.nav-tabs__item
+                      a(href="#").nav-tabs__link.is-active
+                        svg.nav-tabs__link-icon
+                          use(xlink:href="images/sprite.svg#drupal")
+                        span.nav-tabs__link-title Crowfunding
+                    li.nav-tabs__item
+                      a(href="#").nav-tabs__link
+                        svg.nav-tabs__link-icon
+                          use(xlink:href="images/sprite.svg#drupal")
+                        span.nav-tabs__link-title Crowfunding
+                    li.nav-tabs__item
+                      a(href="#").nav-tabs__link
+                        svg.nav-tabs__link-icon
+                          use(xlink:href="images/sprite.svg#drupal")
+                        span.nav-tabs__link-title Crowfunding
+                    li.nav-tabs__item
+                      a(href="#").nav-tabs__link
+                        svg.nav-tabs__link-icon
+                          use(xlink:href="images/sprite.svg#drupal")
+                        span.nav-tabs__link-title Crowfunding
+                    li.nav-tabs__item
+                      a(href="#").nav-tabs__link
+                        svg.nav-tabs__link-icon
+                          use(xlink:href="images/sprite.svg#drupal")
+                        span.nav-tabs__link-title Crowfunding
+                    li.nav-tabs__item
+                      a(href="#").nav-tabs__link
+                        svg.nav-tabs__link-icon
+                          use(xlink:href="images/sprite.svg#drupal")
+                        span.nav-tabs__link-title Crowfunding
+                    li.nav-tabs__item
+                      a(href="#").nav-tabs__link
+                        svg.nav-tabs__link-icon
+                          use(xlink:href="images/sprite.svg#drupal")
+                        span.nav-tabs__link-title Crowfunding
+              .cases-section__list
+                article.cases-card.cases-section__list-card
+                  .cases-card__inner
+                    .cases-card__content
+                      h3.cases-card__title
+                        a(href="#").cases-card__link Moon<br>Explicit
+                      .content.cases-card__text
+                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    .cases-card__media
+                      picture.cases-card__picture
+                        img(src="images/cases-card-1.jpg" alt="Moon Explicit").cases-card__img
+                article.cases-card.cases-section__list-card
+                  .cases-card__inner
+                    .cases-card__content
+                      h3.cases-card__title
+                        a(href="#").cases-card__link Moon<br>Explicit
+                      .content.cases-card__text
+                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    .cases-card__media
+                      picture.cases-card__picture
+                        img(src="images/cases-card-2.jpg" alt="Moon Explicit").cases-card__img
+                article.cases-card.cases-section__list-card
+                  .cases-card__inner
+                    .cases-card__content
+                      h3.cases-card__title
+                        a(href="#").cases-card__link Moon<br>Explicit
+                      .content.cases-card__text
+                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    .cases-card__media
+                      picture.cases-card__picture
+                        img(src="images/cases-card-3.jpg" alt="Moon Explicit").cases-card__img
+          section.appeal-section
+            .appeal-section__container
+              h3.appeal-section__suptitle Ready to start you project?
+              h2.appeal-section__title
+                a(href="#").appeal-section__link Tell us
+
+    include includes/foot.pug

@@ -1,0 +1,25 @@
+// typography
+$ff-default: 'Ubuntu', Arial, sans-serif;
+$ff-accent: 'JetBrains Mono', Arial, sans-serif;
+
+// pallets
+$color-black-1: #1E1E1E;
+$color-white-1: #fff;
+$color-beige-1: #E7E2DD;
+$color-gray-1: #BCBCBC;
+
+// media breakpoints
+$xl: 1440px;
+$xl-mf: $xl + 1;
+
+$lg: 1199px;
+$lg-mf: $lg + 1;
+
+$md: 991px;
+$md-mf: $md + 1;
+
+$sm: 767px;
+$sm-mf: $sm + 1;
+
+$xs: 576px;
+$xs-mf: $xs;
